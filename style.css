@@ -1,19 +1,31 @@
-.texto-menor {
+.texto-menor{
     font-size: 13px;
 }
-.divs-facilidades {
+.divs-falidades{
     width: 325px;
 }
 .div-novidades {
     width: 325px;
 }
 
-@media (min-width: 768px){
+@media (min-width:768px){
     .div-novidades {
         width: 696px;
     }
-    .nav-link{
-        color: white
-
-    }
-
+}
+.roxo{
+    background-color:#9353FF ;
+    text-decoration: none;
+    color: white;
+}
+.icones{
+    color: #DAFF01;
+}
+section{
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+}
