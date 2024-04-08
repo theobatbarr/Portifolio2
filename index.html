@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteora</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-md bg-black navbar-"> 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1><img src="assets/logo-meteora.png" alt=""></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Home</font>
+                            </font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Lojas</font>
+                            </font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Novidades</font>
+                            </font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Promoções</font>
+                            </font>
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Dgite o produto" aria-label="Procurar">
+                    <button class="btn btn-outline-success" type="submit">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Buscar</font>
+                        </font>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-label="Diapositivo 1" aria-current="true"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Diapositivo 2" class=""></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Diapositivo 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: primeiro slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
+                        dy=".3em">First slide</text>
+                </svg>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Etiqueta do primeiro slide</font>
+                        </font>
+                    </h5>
+                    <p>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Algum conteúdo representativo de espaço reservado
+                                para o primeiro slide.</font>
+                        </font>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: segundo slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444"
+                        dy=".3em">Second slide</text>
+                </svg>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Etiqueta do segundo slide</font>
+                        </font>
+                    </h5>
+                    <p>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Algum conteúdo representativo de espaço reservado
+                                para o segundo slide.</font>
+                        </font>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: terceiro slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
+                        dy=".3em">Third slide</text>
+                </svg>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Etiqueta do terceiro slide</font>
+                        </font>
+                    </h5>
+                    <p>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Algum conteúdo representativo de espaço reservado
+                                para o terceiro slide.</font>
+                        </font>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Anterior</font>
+                </font>
+            </span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Próximo</font>
+                </font>
+            </span>
+        </button>
+    </div>
+
+    <h2 class="text-center">Busque por catergoria:</h2>
+
+    <div class="container row mx-auto g-4">
+        <div class="col-6 col-md-4 col-xl-2">
+            <div class="card">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: tampa da imagem"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-header">
+
+                    <p class="text-center">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Categoria</font>
+                        </font>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xl-2">
+            <div class="card">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: tampa da imagem"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-header">
+
+                    <p class="text-center">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Categoria</font>
+                        </font>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xl-2">
+            <div class="card">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: tampa da imagem"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-header">
+
+                    <p class="text-center">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Categoria</font>
+                        </font>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xl-2">
+            <div class="card">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: tampa da imagem"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-header">
+
+                    <p class="text-center">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Categoria</font>
+                        </font>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xl-2">
+            <div class="card">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: tampa da imagem"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-header">
+
+                    <p class="text-center">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Categoria</font>
+                        </font>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xl-2">
+            <div class="card">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: tampa da imagem"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-header">
+
+                    <p class="text-center">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Categoria</font>
+                        </font>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="text-center">Produtos que estão bombando:</h2>
+
+    <div class="container row mx-auto">
+
+        <div class="col-12 col-md-6 col-xl-4 pb-4">
+            <div class="card">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: tampa da imagem"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Produto</font>
+                        </font>
+                    </h5>
+                    <p class="card-text">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Algum texto de exemplo rápido para desenvolver o
+                                título
+                                do cartão e compor a maior parte do conteúdo do cartão.</font>
+                        </font>
+                    </p>
+                    <p>R$30,00</p>
+                    <a href="#" class="btn btn-primary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Ver mais</font>
+                        </font>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4 pb-4">
+            <div class="card">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: tampa da imagem"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Produto</font>
+                        </font>
+                    </h5>
+                    <p class="card-text">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Algum texto de exemplo rápido para desenvolver o
+                                título
+                                do cartão e compor a maior parte do conteúdo do cartão.</font>
+                        </font>
+                    </p>
+                    <p>R$30,00</p>
+                    <a href="#" class="btn btn-primary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Ver mais</font>
+                        </font>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4 pb-4">
+            <div class="card">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: tampa da imagem"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Produto</font>
+                        </font>
+                    </h5>
+                    <p class="card-text">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Algum texto de exemplo rápido para desenvolver o
+                                título
+                                do cartão e compor a maior parte do conteúdo do cartão.</font>
+                        </font>
+                    </p>
+                    <p>R$30,00</p>
+                    <a href="#" class="btn btn-primary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Ver mais</font>
+                        </font>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4 pb-4">
+            <div class="card">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: tampa da imagem"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Produto</font>
+                        </font>
+                    </h5>
+                    <p class="card-text">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Algum texto de exemplo rápido para desenvolver o
+                                título
+                                do cartão e compor a maior parte do conteúdo do cartão.</font>
+                        </font>
+                    </p>
+                    <p>R$30,00</p>
+                    <a href="#" class="btn btn-primary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Ver mais</font>
+                        </font>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4 pb-4">
+            <div class="card">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: tampa da imagem"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Produto</font>
+                        </font>
+                    </h5>
+                    <p class="card-text">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Algum texto de exemplo rápido para desenvolver o
+                                título
+                                do cartão e compor a maior parte do conteúdo do cartão.</font>
+                        </font>
+                    </p>
+                    <p>R$30,00</p>
+                    <a href="#" class="btn btn-primary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Ver mais</font>
+                        </font>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4 pb-4">
+            <div class="card">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: tampa da imagem"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Produto</font>
+                        </font>
+                    </h5>
+                    <p class="card-text">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Algum texto de exemplo rápido para desenvolver o
+                                título
+                                do cartão e compor a maior parte do conteúdo do cartão.</font>
+                        </font>
+                    </p>
+                    <p>R$30,00</p>
+                    <a href="#" class="btn btn-primary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Ver mais</font>
+                        </font>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="pb-4">
+        <h2 class="text-center">Conheça todas as nossas facilidades</h2>
+        <div class="d-flex flex-column align-items-center justify-content-center flex-xl-row gap-3 px-3">
+            <div class="divs-facilidades d-flex align-items-center">
+
+                <div><i class="bi bi-x-diamond fs-1 "></i></div>
+                <div>
+                    <div class="ms-3">Pague pelo PIX</div>
+                    <div class="texto-menor ms-3">Ganhe 5% OFF em pagamentos via PIX</div>
+                </div>
+            </div>
+            <div class="divs-facilidades d-flex align-items-center">
+
+                <div><i class="bi bi-arrow-repeat fs-1"></i></div>
+                <div>
+                    <div class="ms-3">Troca Grátis</div>
+                    <div class="texto-menor ms-3">Fique Livre para trocar em ate 30 dias</div>
+                </div>
+            </div>
+            <div class="divs-facilidades d-flex align-items-center">
+
+                <div> <i class="bi bi-flower1 fs-1"></i></div>
+                <div>
+                    <div class="ms-3">Sustentabilidade</div>
+                    <div class="texto-menor ms-3">Moda responsavel que pespeira o meio ambiente</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <form class="border border-secondary m-3 p-3 text-center div-novidades mx-auto">
+        <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
+        <div class="input-group my-3">
+          <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail" aria-label="Digite seu e-mail" aria-describedby="button-addon2" /> 
+    <button type="button" id="button-addon2">Enviar</button>
+        </div>
+      </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
